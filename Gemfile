@@ -40,7 +40,7 @@ group :test do
 	# Collection of testing matchers extracted from Shoulda
 	gem 'shoulda-matchers', '~> 3.1'
 	# Factory Girl Rails
-	gem 'factory_girl_rails' 
+	gem 'factory_girl_rails'
 end
 
 group :development do
@@ -52,3 +52,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'devise'
