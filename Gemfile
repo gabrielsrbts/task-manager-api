@@ -30,7 +30,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   # RSpec for Rails-3+
   gem 'rspec-rails', '~> 3.5'
-
+  # Faker
   gem 'faker'
 end
 
@@ -39,8 +39,8 @@ group :test do
 	gem 'database_cleaner'
 	# Collection of testing matchers extracted from Shoulda
 	gem 'shoulda-matchers', '~> 3.1'
-	# Factory Girl Rails
-	gem 'factory_girl_rails'
+  # Factory Girl Rails
+  gem 'factory_girl_rails'
 end
 
 group :development do
